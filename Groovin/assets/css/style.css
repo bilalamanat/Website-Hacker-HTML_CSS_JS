@@ -625,6 +625,7 @@ section {
   background: url("../img/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
+  border-radius: 20px;
 }
 
 @media (max-width: 991px) {
