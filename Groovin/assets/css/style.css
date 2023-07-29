@@ -622,7 +622,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/323.png") center center no-repeat;
   background-size: cover;
   min-height: 400px;
   border-radius: 20px;
@@ -1092,6 +1092,7 @@ section {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+  border-radius: 100px;
 }
 
 /*--------------------------------------------------------------
