@@ -553,7 +553,6 @@ h6 {
     width: 5%;
   }
 }
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -626,6 +625,7 @@ section {
   background-size: cover;
   min-height: 400px;
   border-radius: 20px;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 @media (max-width: 991px) {
@@ -794,6 +794,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  border-radius: 30px;
 }
 
 .why-us .box span {
@@ -831,10 +832,11 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Haking Tool
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+
 }
 
 .portfolio #portfolio-flters {
@@ -842,6 +844,7 @@ section {
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+
 }
 
 .portfolio #portfolio-flters li {
@@ -856,16 +859,19 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
+  border-radius: 100px;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #5c9f24;
+  
 }
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+
 }
 
 .portfolio .portfolio-wrap {
@@ -874,6 +880,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(42, 42, 42, 0.7);
+  border-radius: 50px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1023,7 +1030,8 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 40px 0;
+
 }
 
 .team .member {
@@ -1031,6 +1039,7 @@ section {
   margin-bottom: 20px;
   background: #343a40;
   position: relative;
+ 
 }
 
 .team .member .member-info {
@@ -1044,22 +1053,26 @@ section {
   left: 0;
   right: 0;
   transition: 0.2s;
+  border-radius: 50px;
 }
 
 .team .member .member-info-content {
-  margin-top: -50px;
+  margin-top: 50px;
   transition: margin 0.2s;
+ 
 }
 
 .team .member:hover .member-info {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
+
 }
 
 .team .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
+  
 }
 
 .team .member h4 {
@@ -1067,6 +1080,7 @@ section {
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
+ 
 }
 
 .team .member span {
@@ -1074,26 +1088,34 @@ section {
   display: block;
   font-size: 13px;
   color: #fff;
+ 
 }
 
 .team .member .social {
   margin-top: 15px;
+
+
 }
 
 .team .member .social a {
   transition: color 0.3s;
   color: #fff;
+
+
 }
 
 .team .member .social a:hover {
-  color: #5c9f24;
+  color: #4400ff;
+
+
 }
 
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-  border-radius: 100px;
+  border-radius: 50px;
 }
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1105,6 +1127,7 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
+  
 }
 
 .pricing .box h3 {
