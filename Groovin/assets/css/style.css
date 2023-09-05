@@ -1468,10 +1468,12 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .breadcrumbs ol li+li {
   padding-left: 10px;
+  text-align: center;
 }
 
 .breadcrumbs ol li+li::before {
